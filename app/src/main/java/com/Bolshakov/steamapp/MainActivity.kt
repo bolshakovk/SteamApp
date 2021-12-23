@@ -8,12 +8,12 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import kotlin.properties.Delegates
 
 class   MainActivity : AppCompatActivity() {
     private lateinit var username: EditText
     private lateinit var password: EditText
     private lateinit var login: Button
+    private lateinit var register: Button
     private lateinit var loginLocked: TextView
     private lateinit var attempts: TextView
     private lateinit var numberOfAttempts: TextView
@@ -37,6 +37,11 @@ class   MainActivity : AppCompatActivity() {
         numberOfAttempts.text = numberOfRemainingLoginAttempts.toString()
     }
 
+    fun Register(view: View){
+        val intent = Intent(this, RegistredActivity::class.java)
+        startActivity(intent)
+    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,6 +50,7 @@ class   MainActivity : AppCompatActivity() {
         username = findViewById(R.id.edit_user)
         password = findViewById(R.id.edit_password)
         login = findViewById(R.id.button_login)
+        register = findViewById(R.id.button_Register)
         loginLocked = findViewById(R.id.login_locked)
         attempts = findViewById(R.id.attempts)
         numberOfAttempts = findViewById(R.id.number_of_attempts)

@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SteamApp2/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SteamApp2/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/SteamApp2/app/src/main/res/layout/logged_activity.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/SteamApp2/app/src/main/res/layout/register_activity.xml" value="0.33" />
       </map>
     </option>
   </component>
